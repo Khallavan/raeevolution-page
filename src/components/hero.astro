@@ -1,6 +1,6 @@
 ---
 import { Picture } from "@astrojs/image/components";
-import heroImage from "assets/hero.png";
+import heroImage from "assets/reciclage.png";
 import Link from "@components/ui/link.astro";
 import { Icon } from "astro-icon";
 ---
@@ -10,7 +10,7 @@ import { Icon } from "astro-icon";
   <div class="py-6 md:order-1 hidden md:block">
     <Picture
       src={heroImage}
-      alt="Astronaut in the air"
+      alt="RAEEvolution Logo"
       widths={[200, 400, 600]}
       aspectRatio="4:3"
       sizes="(max-width: 800px) 100vw, 620px"
@@ -20,35 +20,25 @@ import { Icon } from "astro-icon";
   </div>
   <div>
     <h1
-      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
-      Marketing website done with Astro
+      class="text-5xl lg:text-6xl xl:text-6xl font-bold lg:tracking-tight xl:tracking-tighter">
+      RAEEvolution, Haciendo la diferencia un residuo electrónico a la vez.
     </h1>
     <p class="text-lg mt-4 text-slate-600 max-w-xl">
-      Astroship is a starter template for startups, marketing websites & landing
-      pages.<wbr /> Built with Astro.build and TailwindCSS. You can quickly create
-      any website with this starter.
+      Dedicados a ofrecer un servicio integral para la recolección y gestión responsable de residuos 
+      electrónicos.<wbr /> Entendemos la importancia de reducir la huella ambiental y estamos comprometidos a 
+      ser parte activa del cambio.
     </p>
     <div class="mt-6 flex flex-col sm:flex-row gap-3">
       <Link
         href="#"
-        href="https://web3templates.com/templates/astroship-starter-website-template-for-astro"
+        href="/contact"
         target="_blank"
         class="flex gap-1 items-center justify-center"
         rel="noopener">
-        <Icon class="text-white w-5 h-5" name="bx:bxs-cloud-download" />
-
-        Download for Free
+        <Icon class="text-white w-5 h-5" name="clarity:email-line" />
+        RAEEVoluciona con Nosotros
       </Link>
-      <Link
-        size="lg"
-        style="outline"
-        rel="noopener"
-        href="https://github.com/surjithctly/astroship"
-        class="flex gap-1 items-center justify-center"
-        target="_blank">
-        <Icon class="text-black w-4 h-4" name="bx:bxl-github" />
-        GitHub Repo
-      </Link>
+      
     </div>
   </div>
 </main>

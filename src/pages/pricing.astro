@@ -6,70 +6,29 @@ import PricingCard from "@components/pricing.astro";
 
 const pricing = [
   {
-    name: "Personal",
-    price: "Free",
+    name: "Empresas Pymes",
+    price: "Personalizalo",
     popular: false,
     features: [
-      "Lifetime free",
-      "Up to 3 users",
-      "Unlimited Pages",
-      "Astro Sub domain",
-      "Basic Integrations",
-      "Community Support",
+      "Capacitaciones",
+      "Servicio Preferencial",
+      "Logistica",
+      "24/7 Soporte telefónico",
     ],
     button: {
-      text: "Get Started",
-      link: "/",
-    },
-  },
-  {
-    name: "Startup",
-    price: {
-      monthly: "$19",
-      annual: "$16",
-      discount: "10%",
-      original: "$24",
-    },
-    popular: true,
-    features: [
-      "All Free Features",
-      "Up to 20 users",
-      "20 Custom domains",
-      "Unlimited Collaborators",
-      "Advanced Integrations",
-      "Priority Support",
-    ],
-    button: {
-      text: "Get Started",
-      link: "#",
-    },
-  },
-  {
-    name: "Enterprise",
-    price: "Custom",
-    popular: false,
-    features: [
-      "All Pro Features",
-      "Unlimited Custom domains",
-      "99.99% Uptime SLA",
-      "SAML & SSO Integration",
-      "Dedicated Account Manager",
-      "24/7 Phone Support",
-    ],
-    button: {
-      text: "Contact us",
+      text: "contáctanos",
       link: "/contact",
     },
   },
 ];
 ---
 
-<Layout title="Pricing">
+<Layout title="Precios">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Pricing</Fragment>
+      <Fragment slot="title">Precios</Fragment>
       <Fragment slot="desc">
-        Simple & Predictable pricing. No Surprises.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit..
       </Fragment>
     </Sectionhead>
 
